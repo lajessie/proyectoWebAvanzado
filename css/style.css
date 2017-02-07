@@ -1,0 +1,99 @@
+nav{
+  height: 80px;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*FOOTER ADHESIVO*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.brand-logo{
+  margin-left: 9%;
+}
+
+
+
+.logo{
+  width: 50px;
+  height: 50px;
+  padding-top: 3px;
+}
+.marca{
+  width: 60px;
+  height: 50px;
+  display: inline-block;
+  font-family: 'Barrio', cursive;
+  padding-bottom: 13px;
+}
+.menu{
+  padding-right: 10%;
+}
+.info{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.parallax-container{
+  height: 280px;
+}
+
+.condicion{
+  display: none;
+}
+
+.tabla{
+  background-color: rgba(255, 248, 225, 0.8);
+}
+
+.tabla1{
+  background-color: rgba(255, 248, 225, 0.5);
+}
+
+.img-fondo{
+min-width:  100%;
+min-height: 100%;
+background-size: cover;
+background-image: url("../img/im1.jpg");
+}
+.letra-r{
+  font-size: 15px;
+}
+.men{
+  text-align: center;
+  height: 50px;
+  padding-bottom:  5px;
+}
+.men:hover{
+  background-color: #ffa31a;
+  border-radius: 10px;
+}
+
+.activado{
+  border-bottom: 5px solid white;
+}
+.nav-content{
+  height: 30px;
+}
+
+@media (max-width: 600px){
+  .logo{
+    margin-left: 25%;
+    height: 35px;
+    width: 35px;
+  }
+  .marca{
+    font-size: 18px;
+  }
+}
+
+.icono{
+  margin-top: 40%;
+}
