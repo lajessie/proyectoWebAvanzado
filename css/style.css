@@ -97,3 +97,9 @@ background-image: url("../img/im1.jpg");
 .icono{
   margin-top: 40%;
 }
+
+::-webkit-input-placeholder { color: #5d4037; }
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #ff6d00 ;
+  box-shadow: 0 1px 0 0 #ff6d00 ;
