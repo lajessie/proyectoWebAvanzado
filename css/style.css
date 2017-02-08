@@ -51,6 +51,7 @@ body {
 
 .tabla{
   background-color: rgba(255, 248, 225, 0.8);
+  padding-left: 50px;
 }
 
 .tabla1{
@@ -80,8 +81,9 @@ background-image: url("../img/im1.jpg");
   border-bottom: 5px solid white;
 }
 .nav-content{
-  height: 30px;
+  height: 50px;
 }
+
 
 @media (max-width: 600px){
   .logo{
@@ -92,6 +94,20 @@ background-image: url("../img/im1.jpg");
   .marca{
     font-size: 18px;
   }
+  .nav-content{
+    height: 80px;
+  }
+
+
+}
+
+@media (max-width: 800px){
+
+  .nav-content{
+    height: 55px;
+  }
+
+
 }
 
 .icono{
@@ -103,3 +119,10 @@ background-image: url("../img/im1.jpg");
 .input-field input[type=text]:focus {
   border-bottom: 1px solid #ff6d00 ;
   box-shadow: 0 1px 0 0 #ff6d00 ;
+}
+.texto-reg{
+  text-align: justify;
+}
+hr{
+  color: brown
+}

@@ -42,15 +42,15 @@ var token = 'cbdaef44-e562-4d01-b403-8cc2c9baad70';
 var urlApiBusqueda = "http://www3.inegi.org.mx/sistemas/api/denue/v1/consulta/buscar/#condicion/#latitud,#longitud/#metros/#token";
 var vecNombres = [
 'id de establecimiento',
-'Nombre de la unidad econ&oacute;mica:',
+'Nombre:',
 'Raz&oacute;n social:',
-'Nombre de la clase de actividad:',
+'Descripción:',
 'Personal ocupado (estrato):',
 'Tipo de vialidad:',
 'Nombre de la vialidad:',
 'N&uacute;mero exterior o km:',
 'N&uacute;mero o letra interior:',
-'Nombre del asentamiento humano:',
+'Colonia:',
 'C&oacute;digo postal:',
 'Entidad,Municipio,Localidad:',
 'N&uacute;mero de tel&eacute;fono:',
@@ -115,7 +115,7 @@ console.log(longitud);
 			//'<tr ><td style="width:50%;" >' + vecNombres[15] + '</td><td style="width:50%;">' + json[i].Tipo + '</td></tr>'+
 			'<tr ><td style="width:50%;" >' + vecNombres[16] + '</td><td style="width:50%;">' + json[i].Latitud + '</td></tr>'+
 			'<tr ><td style="width:50%;" >' + vecNombres[17] + '</td><td style="width:50%;">' + json[i].Longitud + '</td></tr>'
-			codHtml += '<tr><td></td></tr></table><br><br>';
+			codHtml += '<tr><td></td></tr></table><br><br><hr style="color: brown;">';
 			}
 
 
